@@ -24,7 +24,7 @@ const App = () => {
                     d="M12,2C7.589,2,4,5.589,4,9.995C3.971,16.44,11.696,21.784,12,22c0,0,8.029-5.56,8-12C20,5.589,16.411,2,12,2z M12,14 c-2.21,0-4-1.79-4-4s1.79-4,4-4s4,1.79,4,4S14.21,14,12,14z" />
                 </svg>
 
-                <span className="ml-2">1985 Kerry Way, Whittier, CA, USA</span>
+                <span className="ml-2">xxxx</span>
               </div>
             </li>
             <li className="ml-6">
@@ -34,7 +34,7 @@ const App = () => {
                     d="M14.594,13.994l-1.66,1.66c-0.577-0.109-1.734-0.471-2.926-1.66c-1.193-1.193-1.553-2.354-1.661-2.926l1.661-1.66 l0.701-0.701L5.295,3.293L4.594,3.994l-1,1C3.42,5.168,3.316,5.398,3.303,5.643c-0.015,0.25-0.302,6.172,4.291,10.766 C11.6,20.414,16.618,20.707,18,20.707c0.202,0,0.326-0.006,0.358-0.008c0.245-0.014,0.476-0.117,0.649-0.291l1-1l0.697-0.697 l-5.414-5.414L14.594,13.994z" />
                 </svg>
 
-                <span className="ml-2">+1 562-789-1935</span>
+                <span className="ml-2">xxxx</span>
               </div>
             </li>
           </ul>
@@ -89,7 +89,7 @@ const App = () => {
       <div className="flex flex-wrap items-center justify-between py-6">
         <div className="w-1/2 md:w-auto">
           <a href="index.html" className="text-white font-bold text-2xl">
-            DentalPro
+            Patient Recruitment Platformorm
           </a>
         </div>
 
@@ -114,7 +114,8 @@ const App = () => {
                   href="#">Blog</a></li>
               <li className="md:ml-4"><a className="py-2 inline-block md:text-white md:px-2 font-semibold" href="#">Contact
                   Us</a></li>
-              <li className="md:ml-6 mt-3 md:mt-0">
+              <li className="md:ml-6 mt-3
+               md:mt-0">
                 <a className="inline-block font-semibold px-4 py-2 text-white bg-blue-600 md:bg-transparent md:text-white border border-white rounded"
                   href="#form">Opt-In</a>
               </li>
@@ -126,20 +127,13 @@ const App = () => {
     <div className="bg-gray-100">
       <section className="cover bg-blue-teal-gradient relative bg-blue-600 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 overflow-hidden py-48 flex
       items-center min-h-screen">
-        <div className="h-full absolute top-0 left-0 z-0">
-          <img src={coverBG} alt="" className="w-full h-full object-cover opacity-20"/>
+        <div className="h-full absolute top-0 left-0 z-0" style={{backgroundColor: "green"}}>
+          <img    alt="" className="w-full h-full object-cover opacity-20"/>
         </div>
 
         <div className="lg:w-3/4 xl:w-2/4 relative z-10 h-100 lg:mt-16">
           <div>
-            <h1 className="text-white text-4xl md:text-5xl xl:text-6xl font-bold leading-tight">A better life starts with a
-              beautiful
-              smile.</h1>
-            <p className="text-blue-100 text-xl md:text-2xl leading-snug mt-4">Welcome to the Dentist Office of Dr. Thomas
-              Dooley,
-              where
-              trust
-              and comfort are priorities.</p>
+            <h1 className="text-white text-4xl md:text-5xl xl:text-5xl font-bold leading-tight">Discover previously unseen insights and unleash new opportunities</h1>
           </div>
         </div>
       </section>
@@ -152,16 +146,14 @@ const App = () => {
               <div className="rounded-lg h-64 overflow-hidden">
                 <img alt="content" className="object-cover object-center h-full w-full" src={R} style={{opacity: '0.5'}}/>
               </div>
-              <h2 className="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">My Patient</h2>
-              <p className="leading-relaxed text-base">I am patient and I need to find or share my medical records that can help me to connect with provider</p>
+              <h2 className="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Patient</h2>
               <button className="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">Click here</button>
             </div>
             <div className="sm:w-1/2 mb-10 px-4">
               <div className="rounded-lg h-64 overflow-hidden">
                 <img alt="content" className="object-cover object-center h-full w-full" src={hospital} style={{opacity: '0.5'}}/>
               </div>
-              <h2 className="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">My Hospital</h2>
-              <p className="leading-relaxed text-base">My organization isn't in the healthcare industry, and I need to retrive medical records</p>
+              <h2 className="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Nurses</h2>
               <button className="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">Click here</button>
             </div>
           </div>
@@ -173,7 +165,7 @@ const App = () => {
       className="relative bg-blue-teal-gradient px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-12 text-center md:text-left">
       <div className="md:flex md:items-center md:justify-center">
         <h2 className="text-xl font-bold text-white">Get in touch with us today! <br className="block md:hidden"/>Call us on: +1
-          562-789-1935</h2>
+        xxxx</h2>
         <a href="#form"
           className="px-8 py-4 bg-white text-blue-600 rounded inline-block font-semibold md:ml-8 mt-4 md:mt-0">Opt-In</a>
       </div>
@@ -181,13 +173,13 @@ const App = () => {
     <footer className="relative bg-gray-900 text-white px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-12 lg:py-24">
       <div className="flex flex-col md:flex-row">
         <div className="w-full lg:w-2/6 lg:mx-4 lg:pr-8">
-          <h3 className="font-bold text-2xl">DentalPro</h3>
+          <h3 className="font-bold text-2xl">Patient Recruitment Form</h3>
           <p className="text-gray-400">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
 
           <form className="flex items-center mt-6">
             <div className="w-full">
               <label className="block uppercase tracking-wide text-gray-600 text-xs font-bold mb-2" htmlFor="grid-last-name">
-                Subscribe htmlFor our Newsletter
+                Subscribe 
               </label>
               <div className="relative">
                 <input
@@ -204,9 +196,9 @@ const App = () => {
         <div className="w-full lg:w-1/6 mt-8 lg:mt-0 lg:mx-4">
           <h5 className="uppercase tracking-wider font-semibold text-gray-500">Treatments</h5>
           <ul className="mt-4">
-            <li className="mt-2"><a href="#" title="" className="opacity-75 hover:opacity-100">General Dentistry</a></li>
-            <li className="mt-2"><a href="#" title="" className="opacity-75 hover:opacity-100">Cosmetic Dentistry</a></li>
-            <li className="mt-2"><a href="#" title="" className="opacity-75 hover:opacity-100">Oral Health</a></li>
+            <li className="mt-2"><a href="#" title="" className="opacity-75 hover:opacity-100">xxxx</a></li>
+            <li className="mt-2"><a href="#" title="" className="opacity-75 hover:opacity-100">xxxx</a></li>
+            <li className="mt-2"><a href="#" title="" className="opacity-75 hover:opacity-100">xxxx</a></li>
           </ul>
         </div>
 
@@ -223,7 +215,7 @@ const App = () => {
                   </svg>
                 </span>
                 <span className="ml-3">
-                  1985 Kerry Way, Whittier, CA, USA
+                  xxxx
                 </span>
               </a>
             </li>
@@ -252,7 +244,7 @@ const App = () => {
                   </svg>
                 </span>
                 <span className="ml-3">
-                  +1 562-789-1935
+                  +1 xxxx
                 </span>
               </a>
             </li>
@@ -266,7 +258,7 @@ const App = () => {
                   </svg>
                 </span>
                 <span className="ml-3">
-                  dentalpro@example.com
+                  patientrecruitment@example.com
                 </span>
               </a>
             </li>
